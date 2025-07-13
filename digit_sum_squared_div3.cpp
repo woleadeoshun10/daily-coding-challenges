@@ -23,6 +23,8 @@ int main(){
   for (int i = 1; i <= 300; i++){
     int digitSum = 0;
      int temp = i;
+
+   // calculate sum of digits
     while(temp > 0){
       digitSum += temp % 10;
       temp /= 10; }
