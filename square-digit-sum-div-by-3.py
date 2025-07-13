@@ -17,6 +17,8 @@ sum = 0
 for i in range(1,301):
     digitSum = 0
     temp = i
+
+    # calculate sum of digits
     while temp > 0:
         digitSum += temp % 10 
         temp //= 10
