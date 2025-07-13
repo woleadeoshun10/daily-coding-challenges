@@ -28,6 +28,7 @@ int main(){
       temp /= 10; }
     digitProduct = digitSum * digitSum;
 
+      // check if product is divisible by 3
       if(digitProduct % 3 == 0){
         cout << i << " ";
         count++;
