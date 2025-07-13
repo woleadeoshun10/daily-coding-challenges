@@ -21,11 +21,14 @@ for i in range(1,301):
         digitSum += temp % 10 
         temp //= 10
     digitProduct = digitSum * digitSum
-    
+
+    #check if product is divisible by 3
     if digitProduct % 3 == 0:
         print(i, end = " ")
         count += 1
         sum += i
+
+        # print new line after every 5 numbers
         if count % 5 == 0:
           print()        
 
