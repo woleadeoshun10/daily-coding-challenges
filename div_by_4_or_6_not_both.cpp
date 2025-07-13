@@ -18,8 +18,7 @@ int main() {
     }
 
     cout << "\nCount: " << count << endl;
-    cout << "Sum: " << sum;
-    cout<< endl;
+    cout << "Sum: " << sum << endl;
 
     return 0;
 }
