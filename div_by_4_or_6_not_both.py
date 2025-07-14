@@ -10,6 +10,8 @@ for i in range(1, 101):
         print(i, end=" ")
         count += 1
         sum += i
+
+        # print 5 numbers per line
         if count % 5 == 0:
             print()
 
