@@ -13,6 +13,8 @@ int main() {
             cout << i << " ";
             count++;
             sum += i;
+
+            // print 5 numbers per line
             if (count % 5 == 0) cout << endl;
         }
     }
