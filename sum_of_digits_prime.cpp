@@ -55,3 +55,6 @@ using namespace std;
     
   return 0;
 }
+
+
+//Im not gonna lie, I had an hardtime with this because I did not know to get a prime number I needed a function. 
