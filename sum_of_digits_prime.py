@@ -58,3 +58,5 @@ if not dont print
 print only 5 of the numbers per line
 print the sum and count of the numbwrs you printed
 """
+#Im not gonna lie, I had an hardtime with this because I did not know to get a prime number I needed a function. 
+
