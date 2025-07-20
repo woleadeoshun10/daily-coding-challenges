@@ -16,7 +16,7 @@ If 45 → 4 + 5 = 9, and 9 is not prime → ❌ skip.
 using namespace std;
 
   bool isPrime (int n){
-      if (n < 2) return 
+      if (n < 2) return false;
       int i = 2;
       while (i*i <= n){
           if (n % i == 0){
