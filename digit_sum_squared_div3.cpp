@@ -13,7 +13,7 @@ At the end, display the total count and sum of all such numbers.
 
 
 #include <iostream>
-using namespace std;
+using namespace std
 
 int main(){
    int count = 0;
