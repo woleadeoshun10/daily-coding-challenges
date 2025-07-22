@@ -11,7 +11,7 @@ def binary_search(nums: list[int], target: int) -> int:
   first = 0
   last = len(nums) - 1
 
-  while first <= last
+  while first <= last:
     mid = (last + first) // 2
     if nums[mid] == target:
       return mid
