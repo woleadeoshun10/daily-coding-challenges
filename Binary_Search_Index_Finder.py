@@ -12,7 +12,7 @@ def binary_search(nums: list[int], target: int) -> int:
   last = len(nums) - 1
 
   while first <= last:
-    mid = (last + first) // 2
+    mid = (last + first) // 
     if nums[mid] == target:
       return mid
     elif target > nums[mid]:
