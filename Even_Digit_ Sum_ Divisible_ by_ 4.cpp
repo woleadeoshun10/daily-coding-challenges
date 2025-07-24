@@ -44,5 +44,5 @@ int main(){
     cout << "\nCount: " << count << endl;
     cout << "Sum: " << sum_num << endl;
     
-  
+  return 0;
 }
