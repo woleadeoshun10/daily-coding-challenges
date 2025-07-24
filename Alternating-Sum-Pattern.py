@@ -30,7 +30,7 @@ for i in range(1,101):
     
 print("\nFinal Result: ", sum_odd + diff_even)
 print("Added Count: ",sum_odd)
-print("Subtracted Count: ", diff_even)
+
 
 
 """
