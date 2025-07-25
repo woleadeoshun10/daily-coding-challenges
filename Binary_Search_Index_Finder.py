@@ -8,7 +8,7 @@ Your implementation should be efficient and should follow the binary search algo
 
 
 def binary_search(nums: list[int], target: int) -> int:
-  first = 0
+  
   last = len(nums) - 1
 
   while first <= last:
