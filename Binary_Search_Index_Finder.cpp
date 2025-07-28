@@ -39,6 +39,6 @@ int main() {
     int result = binarySearch(nums, target);
     cout << "Target index: " << result << endl;
 
-    return 0;
+   
 }
 
