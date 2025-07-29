@@ -14,7 +14,6 @@ Subtracted Count: 50
 */
 
 
-#include <iostream>
 
 using namespace std;
 
