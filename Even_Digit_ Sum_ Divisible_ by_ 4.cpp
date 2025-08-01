@@ -17,7 +17,7 @@ Print numbers from 4 to 250 where the sum of their even digits is divisible by 4
 - At the end, print total count and sum.
 */
 
-#include <iostream>
+
 using namespace std;
 int main(){
     int count = 0;
