@@ -17,7 +17,7 @@ int binarySearch(vector<int>& nums, int target){
   int first = 0;
   int last = nums.size() - 1;
   
-  (first <= last){
+ while(first <= last){
     int mid = (first + last) / 2;
     if (nums[mid] == target){
       return mid;
