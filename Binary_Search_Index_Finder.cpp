@@ -8,7 +8,7 @@ Your implementation should be efficient and should follow the binary search algo
 */
 
 
-#
+#include <iostream>
 #include <vector>
 using namespace std;
 
