@@ -13,7 +13,7 @@ Added Count: 50
 Subtracted Count: 50
 """
 
-sum_odd = 0
+sum_odd = 
 diff_even = 0
 count = 0
 
