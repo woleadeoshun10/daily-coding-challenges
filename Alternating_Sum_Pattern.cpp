@@ -41,10 +41,7 @@ int main (){
   cout << "\nFinal Result: " << total_res << endl;
   cout << "Added Count: " << sum_odd << endl;
   cout << "Subtracted Count: " << diff_even << endl;
- return 0;
-}
 
- 
 
 
  
