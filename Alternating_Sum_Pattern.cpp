@@ -43,7 +43,3 @@ int main (){
   cout << "Subtracted Count: " << diff_even << endl;
 
 
-  return 0;
-}
-
- 
