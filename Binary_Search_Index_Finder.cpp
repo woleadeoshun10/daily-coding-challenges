@@ -7,7 +7,9 @@ Your implementation should be efficient and should follow the binary search algo
 
 */
 
-
+include <iostream>
+#include <vector>
+using namespace std;
 // Function to perform binary search
 int binarySearch(vector<int>& nums, int target){
   int first = 0;
