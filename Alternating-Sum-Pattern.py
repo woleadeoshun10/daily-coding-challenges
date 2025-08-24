@@ -28,6 +28,7 @@ for i in range(1,101):
     print("-" + str(i) , end=" ")
   count += 1
   if count % 10 == 0:
+    print()
     
     
 print("\nFinal Result: ", sum_odd + diff_even)
