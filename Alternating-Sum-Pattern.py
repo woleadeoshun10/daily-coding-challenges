@@ -13,8 +13,9 @@ Added Count: 50
 Subtracted Count: 50
 """
 
-
-
+sum_odd = 0
+diff_even = 0
+count = 0
 
 for i in range(1,101):
   if i % 2 == 1:
