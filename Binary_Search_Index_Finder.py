@@ -6,5 +6,24 @@ Your implementation should be efficient and should follow the binary search algo
 
 """
 
+def binary_search(nums: list[int], target: int) -> int:
+  first = 0
+  last = len(nums) - 1
+
+  while first <= last:
+    mid = (last + first) // 2
+    if nums[mid] == target:
+      return mid
+    elif target > nums[mid]:
+     first = mid + 1
+    else:
+      last = mid -1
+
+  return -1
+
+nums = [1, 3, 5, 7, 9, 11, 15, 23, 35, 45, 90, 120, 126, 140]
+target = 45
+print("Target index:", binary_search(nums, target))  # Output: 3
+
 
 
